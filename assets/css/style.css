@@ -11,10 +11,8 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
-	.fade-in body
+	body
 	{
-		animation: cd-move-in 0.4s;
-  	animation-fill-mode: forwards;
 		margin: 0;
 		padding: 0;
 		background: #161616;
@@ -849,9 +847,18 @@
 
 		#nav > ul > li
 		{
+			-webkit-transition: all .2s linear;
+    	-o-transition: all .2s linear;
+    	-moz-transition: all .2s linear;
+    	transition: all .2s linear;
 			display: inline-block;
 			border-right: 1px solid;
 			border-color: rgba(255,255,255,.1);
+		}
+
+		#nav > ul > li:hover
+		{
+			box-shadow:0px 0px 15px 0px black;
 		}
 
 			#nav > ul > li:last-child
