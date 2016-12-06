@@ -11,8 +11,10 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
-	body
+	.fade-in body
 	{
+		animation: cd-move-in 0.4s;
+  	animation-fill-mode: forwards;
 		margin: 0;
 		padding: 0;
 		background: #161616;
