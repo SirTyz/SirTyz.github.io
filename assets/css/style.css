@@ -287,7 +287,8 @@
 
 	.button:hover
 	{
-		background: #70AA7E;
+		background: white;
+		color: #3a0058;
 		color: #FFF !important;
 	}
 
