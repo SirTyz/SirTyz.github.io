@@ -12,13 +12,14 @@
 	<script src="/assets/js/skel.min.js"></script>
 	<script src="/assets/js/skel-panels.min.js"></script>
 	<script src="/assets/js/init.js"></script>
+	<script src="/assets/js/snackBar.js"></script>
 	<noscript>
 		<link rel="stylesheet" href="/assets/css/skel-noscript.css" />
 		<link rel="stylesheet" href="/assets/css/style.css" />
 		<link rel="stylesheet" href="/assets/css/style-desktop.css" />
 	</noscript>
 </head>
-<body onload="document.body.style.opacity='1'">
+<body onload="document.body.style.opacity='1'; displaySnackbar();">
 
 	<!-- Header -->
 	<div id="header">
@@ -69,6 +70,9 @@
 		Built Using: <a href="http://templated.co">TEMPLATED</a>
 	</div>
 </div>
+
+<!-- Snackbar -->
+<div id="snackbar">Bear with me as I continue to develop the site.</div>
 
 </body>
 </html>
