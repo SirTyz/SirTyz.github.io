@@ -1,17 +1,4 @@
 $(document).ready(function() {
-
-//Implements a snackbar popup display.
-function displaySnackbar() {
-    // Get the snackbar DIV
-    var x = document.getElementById("snackbar")
-
-    // Add the "show" class to DIV
-    x.className = "show";
-
-    // After 3 seconds, remove the show class from DIV
-    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-}
-
 //Implements a scrolling nav bar.
   $(window).scroll(function () {
       //if you hard code, then use console
@@ -26,3 +13,15 @@ function displaySnackbar() {
     }
   });
 });
+
+//Implements a snackbar popup display.
+function displaySnackbar() {
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar")
+
+    // Add the "show" class to DIV
+    x.className = "show";
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
