@@ -1130,25 +1130,24 @@
 		}
 
 		.work-image1 {
-		    background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
+		    background-color: black;
 		    background-position: center bottom, center right;
 		    background-repeat:no-repeat;
 		}
 
 		.work-image2 {
-		    background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
-		    background-position: center bottom, center right;
-
-				background-repeat:no-repeat;
+			background-color: black;
+			background-position: center bottom, center right;
+			background-repeat:no-repeat;
 		}
 		.work-image3 {
-		    background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
-		    background-position: center bottom, center right;
-		    background-repeat:no-repeat;
+			background-color: black;
+			background-position: center bottom, center right;
+			background-repeat:no-repeat;
 		}
 
 		.work-image4 {
-		    background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
-		    background-position: center bottom, center right;
-		    background-repeat:no-repeat;
+			background-color: black;
+			background-position: center bottom, center right;
+			background-repeat:no-repeat;
 		}
