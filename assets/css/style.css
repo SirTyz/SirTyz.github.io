@@ -1119,12 +1119,12 @@
 		/* Work Page Images                                                              */
 		/*********************************************************************************/
 
-		.class-images {
+		div.work-images {
 		display:block;
 		width:500px;
 		margin:350px;
 		}
-		.class-images img {
+		div.work-images img {
 		    float:left;
 		    padding:10px;
 		}
