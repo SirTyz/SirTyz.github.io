@@ -1122,7 +1122,7 @@
 		.class-images {
 		display:block;
 		width:500px;
-		margin:30px;
+		margin:350px;
 		}
 		.class-images img {
 		    float:left;
@@ -1136,17 +1136,6 @@
 		}
 
 		.work-image2 {
-			background-color: black;
-			background-position: center bottom, center right;
-			background-repeat:no-repeat;
-		}
-		.work-image3 {
-			background-color: black;
-			background-position: center bottom, center right;
-			background-repeat:no-repeat;
-		}
-
-		.work-image4 {
 			background-color: black;
 			background-position: center bottom, center right;
 			background-repeat:no-repeat;
