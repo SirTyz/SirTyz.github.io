@@ -1114,3 +1114,41 @@
 		  from {bottom: 30px; opacity: 1;}
 		  to {bottom: 0; opacity: 0;}
 		}
+
+		/*********************************************************************************/
+		/* Work Page Images                                                              */
+		/*********************************************************************************/
+
+		.class-images {
+		display:block;
+		width:500px;
+		margin:30px;
+		}
+		.class-images img {
+		    float:left;
+		    padding:10px;
+		}
+
+		.work-image1 {
+		    background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
+		    background-position: center bottom, center right;
+		    background-repeat:no-repeat;
+		}
+
+		.work-image2 {
+		    background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
+		    background-position: center bottom, center right;
+
+				background-repeat:no-repeat;
+		}
+		.work-image3 {
+		    background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
+		    background-position: center bottom, center right;
+		    background-repeat:no-repeat;
+		}
+
+		.work-image4 {
+		    background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
+		    background-position: center bottom, center right;
+		    background-repeat:no-repeat;
+		}
