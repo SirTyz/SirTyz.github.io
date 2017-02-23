@@ -1131,16 +1131,18 @@
 
 		.work-image1 {
 				background-image: url("/images/workImages/PennyPear_1.jpg");
-				background-repeat:no-repeat;
-				width: 150px;
-				height: 150px;
+				background-size: 100%;
+				width: 100%;
+				height: 100%;
+				background-repeat: no-repeat;
 		}
 
 		.work-image2 {
 		  background-image: url("/images/workImages/houndBook.jpg");
-			background-repeat:no-repeat;
-			width: 150px;
-			height: 150px;
+			background-size: 100%;
+			width: 100%;
+			height: 100%;
+			background-repeat: no-repeat;	
 		}
 
 		/*Preview of work CSS */
