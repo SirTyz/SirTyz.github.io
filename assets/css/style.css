@@ -1130,15 +1130,17 @@
 		}
 
 		.work-image1 {
-		    background-color: black;
-		    background-position: center bottom, center right;
-		    background-repeat:no-repeat;
+				background-image: url("/images/workImages/PennyPear_1.jpg");
+				background-repeat:no-repeat;
+				width: 150px;
+				height: 150px;
 		}
 
 		.work-image2 {
-			background-color: black;
-			background-position: center bottom, center right;
+		  background-image: url("/images/workImages/houndBook.jpg");
 			background-repeat:no-repeat;
+			width: 150px;
+			height: 150px;
 		}
 
 		/*Preview of work CSS */
