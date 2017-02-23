@@ -16,20 +16,43 @@ layout: default
 							<h2>My Work</h2>
 							<span class="byline">A Few Examples of Things I Have Worked On.</span>
 						</header>
-							<!--Images of my work-->
-							<!-- Trigger the Modal -->
-							<img id="myImg" src="../images/houndBook.jpg" alt="The Hound by H.P. Lovecraft" width="300" height="200">
-							<!-- The Modal -->
-							<div id="myModal" class="modal">
-							  <!-- The Close Button -->
-							  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-							  <!-- Modal Content (The Image) -->
-							  <img class="modal-content" id="img01">
-							  <!-- Modal Caption (Image Text) -->
-							  <div id="caption"></div>
-							</div>
-							
-							<a href="#" class="image full"><img src="../images/PennyPear_1.jpg" alt=""></a>
+						<div align="center">
+	<br>
+	<br>
+	<div class="thumbnails">
+		<img onmouseover="preview.src=img1.src" name="img1" src="../images/houndBook.jpg" alt="" />
+	</div>
+	<div class="preview" align="center">
+		<img name="preview" src="../images/houndBook.jpg" alt=""/>
+	</div>
+</div>
+</body>
+</div>
+</div>
+</section>
+<style type="text/css">
+	body {
+		background: #222;
+		margin: 0;
+	}
+	.thumbnails img {
+		height: 80px;
+		border: 4px solid #555;
+		padding: 1px;
+		margin: 0 10px 10px 0;
+	}
+
+	.thumbnails img:hover {
+		border: 4px solid #00ccff;
+		cursor:pointer;
+	}
+
+	.preview img {
+		border: 4px solid #444;
+		padding: 1px;
+		width: 800px;
+	}
+</style>
 					</section>
 				</div>
 
