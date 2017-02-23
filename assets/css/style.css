@@ -1130,7 +1130,7 @@
 		}
 
 		.work-image1 {
-				background-image: url("/images/workImages/PennyPear_1.jpg");
+				background-image: url("/images/PennyPear_1.jpg");
 				background-size: 100%;
 				width: 100%;
 				height: 100%;
@@ -1138,11 +1138,11 @@
 		}
 
 		.work-image2 {
-		  background-image: url("/images/workImages/houndBook.jpg");
+		  background-image: url("/images/houndBook.jpg");
 			background-size: 100%;
 			width: 100%;
 			height: 100%;
-			background-repeat: no-repeat;	
+			background-repeat: no-repeat;
 		}
 
 		/*Preview of work CSS */
