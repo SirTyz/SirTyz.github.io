@@ -3,7 +3,7 @@
 	<nav id="nav">
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
-			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html">Homepage</a></li>
+			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html">Home</a></li>
 			<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="/about.html">About</a></li>
 			<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="/work.html">Work</a></li>
 			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="/contact.html">Contact</a></li>
